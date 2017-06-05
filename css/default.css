@@ -1,27 +1,32 @@
 @charset "utf-8";
 
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 body{
-    background-image: url(../img/images.png), url(../img/bg.jpg);
-    background-repeat: no-repeat, no-repeat;
-    background-size: 100px 100px, cover;
-    background-color: powderblue;
-    color: steelblue;
-    margin: 5px;
+	background-image: url(../img/images.png), url(../img/bg.jpg);
+	background-repeat: no-repeat, no-repeat;
+	background-size: 100px 100px, cover;
+	background-color: powderblue;
+	color: steelblue;
+	margin: 5px;
 }
 
 #text-shadow{
-    padding: 0 40px;
-    font-size: 20px;
+	padding: 0 40px;
+	font-size: 20px;
+}
+
+#border-radius{
+	padding: 0 40px;
+	font-size: 20px;
 }
 
 #box-shadow{
-    padding: 0 30px;
-    font-size: 20px;
+	padding: 0 30px;
+	font-size: 20px;
 }
 
 .drop_shadow{text-shadow: 2px 2px 3px gray;}
@@ -44,6 +49,32 @@ body{
 		           0px  0px 13px deeppink,
 			   0px  0px 13px deeppink,
 		           0px  0px 13px deeppink;}
+
+
+.border-radius-one{
+	border-radius: 50px;
+	background-color: lightcyan;
+	padding: 10px;
+	margin: 5px;
+}
+.border-radius-two{
+	border-radius: 5px 50px;
+	background-color: lightcyan;
+	padding: 10px;
+	margin: 5px;
+}
+.border-radius-three{
+	border-radius: 5px 20px 40px;
+	background-color: lightcyan;
+	padding: 10px;
+	margin: 5px;
+}
+.border-radius-four{
+	border-radius: 5px 10px 20px 40px;
+	background-color: lightcyan;
+	padding: 10px;
+	margin: 5px;
+}
 
 
 .box-drop_shadow        {box-shadow:  2px  2px  5px gray;                  padding: 5px; margin: 10px;  color: steelblue;}
