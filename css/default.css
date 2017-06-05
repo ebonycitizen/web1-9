@@ -78,12 +78,14 @@ body{
 
 
 .transform{
+	display: block;
 	font-size: 10px;
 	width: 100px;
 	text-align: center;
 	padding: 45px 0px;
 	margin: 20px;
 	background-color: dodgerblue;
+	color: black;
 }
 .translateX{
 	transform: translateX(10px);
