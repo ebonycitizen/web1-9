@@ -128,7 +128,7 @@ p.transition{
 }
 p.transition a{
 	background-color: firebrick;
-	color: white;
+	color: lightpink;
 	font-size: 30px;
 	text-decoration: none;
 	padding: 5px;
@@ -137,7 +137,7 @@ p.transition a{
 }
 p.transition a:hover{
 	background-color: lightpink;
-	color: black;
+	color: firebrick;
 	text-decoration: none;
 	padding: 5px;
 }
