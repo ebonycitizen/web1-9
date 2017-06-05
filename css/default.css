@@ -127,17 +127,17 @@ p.transition{
 	margin: 10px;
 }
 p.transition a{
-	background-color: firebrick;
+	background-color: palevioletred;
 	color: lightpink;
 	font-size: 30px;
 	text-decoration: none;
 	padding: 5px;
-	transition: background 1s 0s, color 1s 0s;
+	transition: background-color 1s 0s, color 1s 0s;
 	transition-timing-function: ease-out, ease-in;
 }
 p.transition a:hover{
 	background-color: lightpink;
-	color: firebrick;
+	color: palevioletred;
 	text-decoration: none;
 	padding: 5px;
 }
